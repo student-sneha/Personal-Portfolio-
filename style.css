@@ -539,43 +539,6 @@ nav .fas{
   }
 }
 
-/* Responsive for tablets */
-@media only screen and (max-width: 768px) {
-  .nav-header {
-    padding: 10px;
-  }
-  .text {
-    font-size: 35px;
-  }
-  .text h2 {
-    font-size: 28px;
-  }
-  .text h1 {
-    font-size: 22px;
-  }
-  .nav-links {
-    width: 100%;
-    right: 0;
-  }
-}
-
-/* Responsive for laptops */
-@media only screen and (max-width: 1024px) {
-  .nav-header {
-    padding: 15px;
-  }
-  .text {
-    font-size: 38px;
-  }
-  .text h2 {
-    font-size: 29px;
-  }
-  .text h1 {
-    font-size: 24px;
-  }
-}
-
-
 
 
 
