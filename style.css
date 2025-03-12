@@ -37,7 +37,10 @@ nav{
   right: 0;
   z-index: 99;
   background-color: #0e0a0a;
-  flex-wrap: wrap;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 20px;
 }
 .nav-header{
   display: flex;
@@ -150,12 +153,14 @@ main{
   transform: translateY(-2px);
 }
 .myimg{
-  margin:50px;
-  width:50%;
+  margin: 20px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
 }
 .myimg img{
-  max-width: 500px;
-  height:500px;
+  max-width: 100%;
+  height: auto;
   border-radius: 50%;
 }
 
@@ -507,15 +512,18 @@ nav .fas{
     font-size: 25px;
     cursor: pointer;
   }
-  .myimg {
-    margin: 20px 0 20px;
-    width: 100%;
-  }
-  .myimg img {
-    max-width: 100%;
-    height: auto;
-    border-radius: 50%;
-  }
+.myimg {
+  margin: 20px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.myimg img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 50%;
+}
+
   .nav-links .fas {
     position: absolute;
     top: 25px;
