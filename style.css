@@ -460,7 +460,8 @@ nav .fas{
 }
 
 /* Responsive for all devices */
-@media only screen and (max-width:600px) {
+@media only screen and (max-width:1027px) {
+
   .nav-header {
     width: 100%;
   }
@@ -567,7 +568,7 @@ nav .fas{
   }
 }
 
-@media only screen and (max-width: 1024px) {
+@media only screen and (max-width: 1027px) {
   .nav-header {
     padding: 15px;
   }
@@ -579,5 +580,16 @@ nav .fas{
   }
   .text h1 {
     font-size: 24px;
+  }
+  .main {
+    flex-direction: column;
+  }
+  .myimg {
+    width: 80%;
+    margin: 20px auto;
+  }
+  .nav-links {
+    flex-wrap: wrap;
+    justify-content: center;
   }
 }
